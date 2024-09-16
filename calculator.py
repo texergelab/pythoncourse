@@ -6,8 +6,11 @@ def multiply(number1, number2):
     return number1 * number2
 
 def sub(number1, number2):
+    if(number2 > number1):
+        return number2-number1
+    else :
+        return number1-number2
     
-    return number1 - number2
 
 def div(number1, number2):
 
