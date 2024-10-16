@@ -16,7 +16,7 @@ price = [100,200,300]
 users_choice = input("What item would you like to have? Please select from menu")
 
 if users_choice == Burger:
-for item1, item2 in zip(menu, price): #what does zip mean?
+#for item1, item2 in zip(menu, price): #what does zip mean?
     print (burger, price)
 
 
