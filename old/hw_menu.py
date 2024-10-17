@@ -6,18 +6,20 @@
 #main_course_price = [100,300,500]
 
 
-menu = ("Burger","pizza","pasta")
+menu = ["Burger","pizza","pasta"]
 price = [100,200,300]
-burger = Burger
-pizza = Pizza
-pasta = Pasta
+burger = "Burger"
+pizza = "Pizza"
+pasta = "Pasta"
 price = [100,200,300]
 
 users_choice = input("What item would you like to have? Please select from menu")
 
-if users_choice == Burger:
+if users_choice == "Burger":
 #for item1, item2 in zip(menu, price): #what does zip mean?
+    print("Working")
     print (burger, price)
+    print("Working")
 
 
 for item1, item2 in zip(menu, price): 
