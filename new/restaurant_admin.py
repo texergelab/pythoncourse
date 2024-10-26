@@ -13,7 +13,7 @@ def show_menu ():
         print(f"{item} : {menu[item]} /-")
 
 
-
+# Add to the menu
 def add_menu():
     print("Currently We have following menu items : ")
     show_menu()
