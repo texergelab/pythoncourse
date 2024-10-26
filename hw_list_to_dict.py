@@ -1,6 +1,9 @@
-menu={"Burger": 100,
-"Pizza" : 200, 
-"French Fries" : 300}
+menu = {
+    
+    "Burger": 100,
+    "Pizza" : 200, 
+    "French Fries" : 300
+    }
 
 
 
@@ -12,7 +15,7 @@ def show_menu():
 def add_menu():
     show_menu()
     item_name = input("Enter menu item to add:  ")
-    menu_items.append(item_name)
+    menu.append(item_name)
     item_price = input("Enter menu price to add:  ")
     menu_item_prices.append(item_price)
     show_menu()
